@@ -2,8 +2,8 @@ package com.calculadora;
 
 public class Operacoes {
     
-    private int op1 = 3;
-    private int op2 = 3;
+    private int op1;
+    private int op2;
     private int resultado;
    
     Operacoes(int op1, int op2) {
@@ -20,13 +20,13 @@ public class Operacoes {
         resultado = op1 - op2;
         return resultado;
     }
-
+    
     public int Multiplicacao() {
-        for(int i; i < op1; i++) { 
-            
-            resultado = resultado + op2;
-            return resultado;
+        
+        
+        
+        return 0;
+        
     }
-}
 
 }
