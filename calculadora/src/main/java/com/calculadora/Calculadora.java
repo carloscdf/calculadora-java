@@ -39,7 +39,7 @@ public class Calculadora {
        }
        
 
-       switch( operacao) {
+       switch(operacao) {
            
            case 1 : System.out.println("Resultado da soma: " + op.Soma());
            break;

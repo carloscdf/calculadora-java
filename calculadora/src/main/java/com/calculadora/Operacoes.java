@@ -37,19 +37,12 @@ public class Operacoes {
     }
 
     public int Divisao() {
-
-        while (op1 <= op2) {
-            resultado = op1-=op2;
-            ++resultado;
-        }
-        if (op1 == -1)
-        resultado = -resultado;
-
-        return resultado;
+        //não consegui entender a lógica que foi pedida, não lembro disso ter sido passado em sala de aula
+        return 0;
     }
 
     public int RestDiv() {
-
+       //a mesma coisa aqui
         return 0;
     }
 }
