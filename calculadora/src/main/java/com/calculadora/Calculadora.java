@@ -47,6 +47,7 @@ public class Calculadora {
            break;
            case 3:  System.out.println("Resultado da multiplicação: " + op.Multiplicacao());
            break;
+           case 4: System.out.println("Resultado da divisão: " + op.Divisao());
            
        }
   

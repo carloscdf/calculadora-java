@@ -36,4 +36,20 @@ public class Operacoes {
         return resultado;
     }
 
+    public int Divisao() {
+
+        while (op1 <= op2) {
+            resultado = op1-=op2;
+            ++resultado;
+        }
+        if (op1 == -1)
+        resultado = -resultado;
+
+        return resultado;
+    }
+
+    public int RestDiv() {
+
+        return 0;
+    }
 }
