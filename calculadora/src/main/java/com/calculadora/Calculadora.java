@@ -10,7 +10,7 @@ public class Calculadora {
     public static void main(String[] args) {
         
        
-         Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
                
         int op1, op2;
         int operacao;
@@ -48,6 +48,8 @@ public class Calculadora {
            case 3:  System.out.println("Resultado da multiplicação: " + op.Multiplicacao());
            break;
            case 4: System.out.println("Resultado da divisão: " + op.Divisao());
+           break;
+           case 5: System.out.println("Resultado do resto divisão: " + op.RestDiv());
            
        }
   
