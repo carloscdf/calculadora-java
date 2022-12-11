@@ -21,8 +21,8 @@ public class Operacoes {
         return resultado;
     }
 
-    public int Multy() {
-        for(int i; i < op1 ; i++) { 
+    public int Multiplicacao() {
+        for(int i; i < op1; i++) { 
             
             resultado = resultado + op2;
             return resultado;
